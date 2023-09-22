@@ -1,0 +1,38 @@
+Concepts covered:
+
+1. Client server architecture( EX. Whatsapp)
+        * here, the developer will build an application and they will deploy 
+           in the server that will attach to the database.
+        * When the user sends  msg that will reach the server... here metrics is used to 
+          evaluate the server and log
+
+2. DNS
+      Used to fetch IP address for the required name.
+
+3.TCP
+     IT is based on back and forth. (three way handshake)
+
+4.UDP
+     If we send a request, it will response in a continuous manner, here we can't retrive lossed data.
+
+5.API
+     It has three types
+           REST
+           Graphical
+           GRPC(HTTP2)
+
+REST- POST PUT PUSH DELETE 
+
+6.CDN
+    For minimize the time for response
+
+7. Data are sent in packets based on IP
+
+GIT
+  
+  It is used for managing the documents in our own system
+
+GITHUB/GITLAB
+   for public reference
+
+for reference   https://www.jcchouinard.com/install-git-in-vscode/
