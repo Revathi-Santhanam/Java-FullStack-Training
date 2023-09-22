@@ -1,0 +1,8 @@
+1. block elements
+2. inline elements
+3.colspan
+4. rowspan
+5.pseudo elements
+6.pseudo selectors
+7. how to create basic webpage
+8. table creation
