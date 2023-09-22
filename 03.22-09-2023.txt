@@ -1,0 +1,25 @@
+HTML elements:
+
+     Div- learnt to handle blocks in the page
+     
+     for rating:
+     &starf- for solid star
+     &star- for empty start
+
+
+
+
+
+CSS Styling :
+
+     learnt to handle flex
+     to manage spacing between the elements
+
+     is there any unwanted spacing we need to check with margin and padding
+
+
+     img - to resize the image
+
+
+url:https://revathi-santhanam.github.io/Effilo/
+
