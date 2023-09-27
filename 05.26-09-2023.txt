@@ -1,0 +1,17 @@
+Bootstrap classes learnt:
+    button
+    navbar
+    container
+    row
+    column
+    card
+    caursoel
+
+
+javascript
+    map
+    reduce
+    filter
+    promise
+    async await
+    for loop
