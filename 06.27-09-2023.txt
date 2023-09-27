@@ -1,0 +1,12 @@
+Javascript:
+
+    learnt to handle functions for a webpage
+    learnt the concept to create a action for a button
+    array and map
+
+
+
+created a Mobile Number Log website using HTML,CSS,Bootstrap,Javascript.
+
+url: https://revathi-santhanam.github.io/NumberBook/
+
