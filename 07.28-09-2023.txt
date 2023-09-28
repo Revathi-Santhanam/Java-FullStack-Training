@@ -1,0 +1,15 @@
+Javascript:
+
+
+    learnt to use event handler
+    defining functions
+
+    to perform dynamic operation in the webpage
+
+    created a small addition logic using 3 inputs
+
+
+started to work on E-commerce website UI designing using HTML,CSS,Bootstrap
+
+
+
