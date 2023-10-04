@@ -1,0 +1,7 @@
+created functions for my e-commerce website:
+
+
+addtocart()
+created functions for my admin page - CRUD operations
+
+
