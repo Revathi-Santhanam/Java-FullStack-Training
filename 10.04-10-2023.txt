@@ -1,0 +1,9 @@
+on continuation of yesterday's project:
+
+
+added delete feature for cart page
+editted some Ui Design
+
+added footer for my webpage
+
+url: https://revathi-santhanam.github.io/e-commerce/
