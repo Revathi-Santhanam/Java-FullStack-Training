@@ -1,0 +1,10 @@
+worked on form validation using JavaScript
+
+     validations on:
+        username
+        password
+        email
+        confirm password
+        check box
+        radio button
+        dropdown box validation
