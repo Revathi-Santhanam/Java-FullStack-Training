@@ -1,0 +1,37 @@
+todays learning:
+
+parcel installaion
+------------------
+   new folder->index.html->script.ts->type console in ts file->then link with html
+
+     to install typescript:
+     ---------------------
+     type the below command in terminal->git bash
+
+     step -1: npm install -g typescript
+     step-2: tsc -v (to check version)
+
+     to install parcel:
+     -----------------
+     step1: npm init -y
+     step-2: npm install -D parcel parcel-bundler
+
+     to create src:
+     --------------
+     move html , js, ts file.
+
+     in package.json:
+     -------------------
+     npm run test----this will run commands in script
+
+
+
+Typescript learnt concepts:
+---------------------------
+
+   variables
+   datatypes
+   tuples
+   array
+
+done todo application based on Typescript

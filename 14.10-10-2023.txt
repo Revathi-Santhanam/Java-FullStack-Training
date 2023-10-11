@@ -1,0 +1,11 @@
+TypeScript balance topics:
+
+class
+methods
+object
+interface
+type
+extends
+
+
+developed a attendence portal
