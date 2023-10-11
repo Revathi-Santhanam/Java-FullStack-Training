@@ -9,3 +9,10 @@ extends
 
 
 developed a attendence portal
+
+
+to download angular setup project:
+
+cmd- npm install -g @angular/cli
+     ng new projectName->no->yes
+

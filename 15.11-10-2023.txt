@@ -1,0 +1,39 @@
+for TypeScript - parcel bundler
+for angular- web pack bundler
+
+command:
+step1- ng serve (development mode)
+       then yes
+
+
+
+version check:
+
+ng version
+
+
+to create a component:
+
+ng g c components/courses   {courses is name of folder}
+
+to create a service:
+
+ng g s services/courses
+
+
+[]-property binding
+{{}}-stringinterpletion
+
+steps to follow:
+components->services->set the service in app module providers
+
+to create interface:
+ng g i model/name
+
+thinks to remember:
+
+write the logic in service
+
+and function to call in components
+
+and create the instances in components so that we can access in all places where ever required.
