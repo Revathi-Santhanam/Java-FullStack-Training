@@ -34,4 +34,4 @@ Typescript learnt concepts:
    tuples
    array
 
-done todo application based on Typescript
+done todo application based on Typescript.
