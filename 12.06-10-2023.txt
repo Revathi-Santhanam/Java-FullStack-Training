@@ -2,3 +2,4 @@ worked on add to cart page:
    here we have added a new function to add each product by increasing 
    or decreasing the number of count in the add button
    also added the feature to add function in cart page .
+   using local storage.
