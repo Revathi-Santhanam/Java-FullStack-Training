@@ -1,0 +1,12 @@
+today's learning:
+
+got a clear idea on angular project work flow.
+
+thinks to remember:
+
+components
+services
+string interplotion
+event binding
+two way binding using ngModel
+directives
