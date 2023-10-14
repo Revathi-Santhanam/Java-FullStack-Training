@@ -3,5 +3,9 @@ created functions for my e-commerce website:
 
 addtocart()
 created functions for my admin page - CRUD operations
+and done the logic part to add the products to the create
+
+what are all products added in admin page that need to reflect 
+in user homepage also.
 
 

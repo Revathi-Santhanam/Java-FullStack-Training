@@ -1,0 +1,22 @@
+learned concepts:
+
+1. todo application
+2. Routing
+
+
+1.todo
+-------
+already in previous  we done the add and delete part
+today we completed the edit function
+in edit i have used filter operation to get the id 
+
+
+2.routing:
+---------
+
+here we learned how to navigate between pages without reload 
+using routing model in angular js.
+
+steps: in app module set the path and components for routing
+       and add routerLink in all the href links to navigate to 
+       next next page.
