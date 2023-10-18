@@ -1,0 +1,13 @@
+completed :
+  sign in function 
+  logout function
+  register function
+  load home page
+
+
+  here we have used product API to fetch
+  the products using http client module.
+
+  loaded the users to the localstorage
+
+  
