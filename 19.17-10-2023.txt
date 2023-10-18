@@ -1,0 +1,8 @@
+today 's work;
+
+wrote logic for add to cart function.
+
+also done the logic part to count number of products in the cart.
+
+load the products in the cart in cart page using
+setting the cart products to local storage.
