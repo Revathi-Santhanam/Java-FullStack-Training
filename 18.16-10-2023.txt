@@ -10,4 +10,14 @@ completed :
 
   loaded the users to the localstorage
 
+  when the page get loads only the home page will
+  get display without login, user can't add products to the cart
+  and view the cart page
+
+  for that we have used Guard in that we used canActivate.
+
+
+
+
+
   

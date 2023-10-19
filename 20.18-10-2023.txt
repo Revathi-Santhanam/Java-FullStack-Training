@@ -1,0 +1,14 @@
+today learning:
+
+created a new function for add to cart because
+we need to get cart products for different users
+
+
+so that we can reflect the products to that individual cart
+everytime the user got logged in the that users cart product will
+get reflected
+
+once the user hit the checkout
+
+entire cart products will get removed for that user.
+

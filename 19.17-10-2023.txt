@@ -6,3 +6,9 @@ also done the logic part to count number of products in the cart.
 
 load the products in the cart in cart page using
 setting the cart products to local storage.
+
+
+get count function is created to get cart count
+while adding the products to the cart
+
+that will reflect in the navbar using string interplotion
