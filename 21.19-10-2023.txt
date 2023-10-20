@@ -1,0 +1,24 @@
+today's work:
+------------
+
+Completed the e-commerce website [cart4U]
+And hosted in git hub.
+
+steps to follow to host angular project:
+---------------------------------------
+step-1: push the project to git repository
+        and host the project as usual.
+
+step-2: enter the command in git bash
+        $ npm i angular-cli-ghpages --save-dev
+
+step-3: $ ng build --configuration production --base-href 
+        "https://GithubUserName.github.io/GithubRepoName/"
+         and delete the dist from git ignore.
+
+step-4: $ npx angular-cli-ghpages --dir=dist/Project-name
+
+step-5: now change the main to phpages in the github.
+
+
+learned about canDeActivate concept.
