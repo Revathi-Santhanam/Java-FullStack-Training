@@ -1,0 +1,117 @@
+datatypes:
+---------
+primitive data types:
+--------------------
+byte 1 byte
+short 2byte
+int 4byte
+long
+float 4byte
+double
+char 2byte
+boolean 
+non-primitive data types:
+------------------------
+string
+array
+
+Math function holds inbuilt functions
+
+access modifier vs access specifiers
+
+functions:
+
+with argument
+without argument
+with return type
+without return type
+
+faced exception:
+----------------
+array index out of bound exception
+input mismatch exception
+arithmetic exception
+index out of bound exception
+
+topics covered:
+---------------
+object creation
+methods creation
+get input from users
+static methods
+array creation. int[] arr = {1, 2, 3, 4, 5, 6, 7};
+
+conditions:
+-----------
+*if
+
+if (condition)
+{
+//Statements to be executed
+}
+
+*if-else
+
+if (condition)
+{
+//Statements to be executed if condition satisfies
+}
+else
+{
+//Statements to be executed if the condition is not satisfied
+}
+
+*if else if
+
+if (condition)
+{
+//Statements set 1
+}
+else if (condition 2) 
+{ 
+//Statements set 2
+}
+ 
+. . .
+ 
+else
+{
+//Statements to be executed if no condition is satisfied.
+}
+
+*nested if
+*switch case
+
+switch (Expression)
+{
+case value 1: Statement 1;
+case value 2: Statement 2;
+case value 3: Statement 3;
+.
+.
+.
+case value n: Statement n;
+Default: default statement;
+}
+
+looping statements
+------------------
+*for loop
+for(init; condition; icr/dcr){
+
+//statements to be repeated
+
+}
+*while loop
+while(condition){
+
+//statements to be repeated
+
+}
+*do while loop
+do{
+
+//statements to be repeated
+
+}while(condition);
+*enhanced for loop.
