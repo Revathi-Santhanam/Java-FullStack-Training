@@ -1,0 +1,90 @@
+Java Basic Concepts Covered:
+----------------------------
+
+Object:
+----------
+
+syntax: ClassName objName = new ClassName();
+
+It is used to access class members.
+
+Method:
+-------
+
+syntax: accessSpecifer accessModifier returnType methodName(){};
+
+we can access one class method in another class in same package by creating
+object for that class in anotherclass
+
+Inheritance:
+-----------
+
+using "extends" keyword one can access one class method from 
+another class i.e., we can access parent class method in child class.
+
+single Inheritance
+multiple Inheritance[we can't implement in java, using interface we can implement]
+multi level Inheritance
+hybrid Inheritance
+Hierarhicay Inheritance
+
+Interface:
+----------
+
+using "implements" keyword we can implement logic for the abstract methods
+only contains abstract methods
+
+in interface we can only give template 
+using implements keyword we can write logic for the template
+
+Abstract:
+--------
+
+it contains both abstract and non-abstract methods;
+
+
+Polymorphism:
+-------------
+1:MethodOverLoading --- Compile Time
+
+same method name.
+different number of parameter
+different order of parameter
+
+2.MethodOverRiding----- Run Time
+
+same methodName
+different class
+
+Exception:
+---------
+
+1. Checked Exception --CompileTime
+IOException, SQLException
+2.Unchecked Exception ---RunTime
+ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException
+3.Error
+OutOfMemoryError
+
+Date:
+-----
+
+syntax: Date date = new Date ( );
+
+dateformat using SimpleDateFormat.
+
+TypeCasting
+-----------
+
+converting one data type to another.
+
+
+UpCasting:
+---------
+converting parent to child.
+
+downCasting:
+-----------
+converting child to parent
+
+
