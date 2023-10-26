@@ -1,0 +1,58 @@
+Today's Learning:
+
+
+started to build E-Commerce on JAVA 
+      Here, end to end input and output will be in command prompt.
+
+Concepts used to build:
+   Encapsulation
+   Interface
+   File handling
+   Exception handling
+   used getter setter for Encapsulation
+   Inheritance
+   Collections
+
+
+Models- POJO methods
+view- contains values to print
+controller- need to write logics
+
+
+package and its classes:
+------------------------
+1. Models  
+     Role
+     User
+     Cart
+     Product
+     Order
+     Category
+     CartProduct
+
+2.view
+    WelcomePage
+    LoginPage
+    RegisterPage
+    OrdersPage
+    CartPage
+    HomePage
+    ProductsPage 
+
+3.controller
+   AppController
+   AuthController
+   HomeController
+   OrderController
+   ProductController
+   CartController
+
+4.Utils
+   Utils
+   StringUtils
+   AppScanner
+   AppInput
+   AppException
+   FileUtil
+
+      
