@@ -1,0 +1,20 @@
+today, i have finished the ecommerce application using java. functions in the application, register & login, 
+show products by category , and show all the products to the user, addtocart: to add products to buy, orders: to view the bought products.
+ 
+when user is new he has to register and those credentials has to be stored, for that we used file handling concepts to store the user credntials.
+and when they login , it has to be same credentials.
+ 
+file handling concepts is also used in category, products , addtocart, orders.
+    -> Category: separate file is kept to store and add the category of the product.
+    -> product: this file contains all the products to be shown to the user.
+    -> addtocart: when user logged and add products to cart , it will be shown. but when they loggedout and login again , the cart products won't be there.
+        so i have created a file with a userid and store the cart products in both csv and text file.
+    -> orders: when the user checkout the product, bill invoice will be created and stored as a text file,
+        and this file will be shown to user in orderspage.
+ 
+the Admin can do CRUD operation to the category and products file, view registered users, and also orders of every user.
+ 
+after finishing the application, we have been given a small task on date to practice.
+
+
+Github link: https://github.com/Revathi-Santhanam/JavaECommerce
