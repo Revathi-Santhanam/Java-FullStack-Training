@@ -1,0 +1,49 @@
+Today's learning:
+----------------
+
+
+list: 4 ways to create
+->list : list<string> a = list.of(scjhksjdhvj) => we cant add to these created list.
+->arraylist : access elements faster.
+->linkedlist :
+->vector list: same as arraylist but it is thread safe.
+ 
+set: dont allow duplicate
+hashset: not stored in sorted order, but in random order
+linkedset: store in the same order as user insert item
+treeset: stored in random order
+ 
+map:
+hashmap:
+treemap: stores key value pairs and allows navigating through keys or values
+ 
+thread: 2-ways to create
+-> extending thread
+-> implements runnable
+ 
+ 
+java8 :-
+    - threads:
+        - synchronized. 
+            =>notify
+            =>wait
+
+    - Interface : 
+    - consumer
+    - biconsumer
+    - predicate
+    - bipredicate
+    - function
+    - bifunction
+    - stream
+        - map
+        - filter
+        - sorted
+        - peak : same as map but it doesn't return anything
+        - distinct
+        - Collect
+        - comparator 
+        - reverse
+    - listoflist
+    - flatmap
+    - comparator Interface
