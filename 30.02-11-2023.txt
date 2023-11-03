@@ -1,0 +1,121 @@
+Today's learning:
+----------------
+MySQL ECommerce
+~~~~~~~~~~~~~~~
+ 1. Register Customer
+    -----------------
+ Register new customer using (INSERT).
+ 
+ 2. Get Login Customer
+    ------------------
+  Getting login users using (SELECT) where deleteFlag = 0(Available users).
+ 
+ 3. Show all categories
+    -------------------
+ Inserted categories and viewed using (SELECT).
+ 
+ 4. Show products of particular Category
+    ------------------------------------
+ Inserted product with primary key of category id and viewed using (SELECT) with category id.
+ 
+ 5. Show all products
+    -----------------
+ Viewed all products from product table using (SELECT).
+ 6. Add to Cart
+    -----------
+ Adding the product to cart with userid, productid using (INSERT).
+ 7. Show Cart
+    ---------
+ Viewing the cart where the cart table contains ordered to be default false.
+ 
+ 8. Inserting Order detail
+    ----------------------
+ After checking out the datum will be entered in the order detail table and in cart, isordered will be set as True
+ 
+ 9. Inserting in Orders
+    -------------------
+ Finally the primary key of order detail will be set to the orders table with status id of primary key from 
+ status table to orders table.
+ 
+SERVLET:
+
+Installation:https://tomcat.apache.org/download-80.cgi
+             download zip file in core
+
+step1: Open intellij
+step2: create new project under MAVEN ARCHETYPE
+step3: if you don't have JDK 1.8 then click on ADD SDK
+        --> download jdk-->amazon cornetto-->version 1.8-->download
+        then click on archetype-->type web app and select-->create project
+step4: add maven dependency for javax SERVLET
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>2.5</version>
+          <scope>provided</scope>
+        </dependency>
+
+step5: create directory for java and there you can write java code
+step6: in web.xml file write the below code [search(web app 2.5)]
+        <?xml version="1.0" encoding="utf-8"  ?>
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+    <display-name>Servlet 2.5 Web Application</display-name>
+
+ //write servlet and servlet mapping
+
+  </web-app>
+
+step7: change jsp.html to index.html.
+
+SPRING - Anotation based configuration
+
+Servlet - Xml based configuration
+ 
+Added Servlet version 2.5 dependency in pom.Xml
+
+In web.Xml
+
+----------
+
+1. Servlet
+
+   * Servlet name
+
+   * Servlet class
+ 
+2. Servlet mapping
+
+   * Servlet name
+
+   * Url pattern
+ 
+Session Tracking, Cookie Tracking.
+
+
+
+
+SERVLET:
+-------
+In servlet,we write HTML inside the Java code
+JSP:
+----
+IN JSP, we write Java code inside the html.
+
+used methods:
+------------
+doget- will get the input in the URL
+dopost- will not get input in the URL.
+
+seen concepts:
+--------------
+Session
+Cookie
+
+PrintWriter printWriter=resp.getWriter();
+printWriter.write("-----")- is used to write html .
