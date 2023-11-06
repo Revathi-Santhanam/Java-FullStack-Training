@@ -1,0 +1,77 @@
+JSP JDBC
+========
+Created the todo application using JSP-JDBC...
+    Model
+    -----
+     1. User
+     2. Register
+     3. Todo
+ 
+    DB
+    --
+     1. Database connection
+        Used to connect with MySQL workbench
+ 
+    DAO
+    ---
+     1. User dao 
+     2. Register dao 
+     3. Todo dao
+ 
+    Controller
+    ----------
+     1. Auth Controller
+     2. Home Controller
+     3. Register Controller
+ 
+    Pages
+    -----
+     1. Home
+     2. Index
+     3. Register
+     4. Logout
+ 
+     Dependencies used:
+     -----------------
+     ## Dependencies Used
+
+1. <dependency>
+      
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
+         <version>2.5</version>
+         <scope>provided</scope>
+    
+    </dependency>
+---------------------------------
+
+2.<dependency>
+      
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</ artifactId>
+      <version>8.0.33</version>
+</dependency>
+
+-------------------
+
+3.<dependency>
+  
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+</dependency>
+
+---------------------
+
+4.<dependency>
+      
+      <groupId>taglibs</groupId>
+      <artifactId>standard</artifactId>
+      <version>1.1.2</version>
+</dependency>
+
+## HttpServlet Methods Used:
+
+
+       📱doPost Methods
+       📱doGet Methods
