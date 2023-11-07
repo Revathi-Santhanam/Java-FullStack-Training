@@ -1,0 +1,103 @@
+Spring version:2.7.17
+
+use [SPRING INITIALIZR]="https://start.spring.io/"
+
+topics covered:
+---------------
+Tightly coupled
+loosely coupled
+component and autowire--->access object creation or bean 
+to specify the class-->primary-to specify the class for bean
+                       qualifyer
+                       autowiring by name
+scope-->singleton,prototype
+component scan--->to scan in diffrent package
+lifecycle of bean--> postconstruct and predestroy
+CDI- method of dependency injection
+inversion of controller-creating bean object
+annotation
+Applicationcontext
+restcontroller----> request body
+                    path variable
+getmapping
+postmapping
+putmapping
+delete mapping
+
+
+Tight coupling:
+---------------
+
+Example:
+create three 3 class - binary search
+                       quick sort
+                       bubble sort
+
+write method for both sort class,here if you want to do binary search
+first we need to sort the array for that we can use any sort algo above
+
+binary search:
+public int binarySearch(int[] numbers, int key){
+       BubbleSort bubbleSort=new BubbleSort();
+       QuickSort quickSort= new QuickSort();
+
+        int[] sorted=bubbleSort.sort(numbers);
+        return 0;
+    }
+
+application class: if you want to change the sort alogorithm we need to change it in 
+binary search class.
+
+so here, each class totally depends tightly.
+
+
+loosely coupling:
+-----------------
+Example:
+create three 3 class - binary search
+                       quick sort
+                       bubble sort
+             interface: SortAlogorithm
+
+here,creating template for a method and overriding in both the sort classes.
+and creating constructor for the interface in binary search class so that we can pass the
+sort alogorithm in application class itself.
+
+BinarySearch binarySearch = new BinarySearch(new quickSort());
+
+
+using springboot:
+----------------
+ApplicationContext applicationContext=SpringApplication.run(Application.class, args);
+BinarySearch binarySearch=applicationContext.getBean(BinarySearch.class);
+
+by creating ApplicationContext we can access each class for bean creation or object creation.
+
+
+component and autowired:
+------------------------
+to access class object without mentioning the constructor injection or set injection
+we can specify the @autowired annotation.
+
+Scope:
+-----
+to specify which class object to be used by:
+     @primary
+     @qualifyer
+     autowired name
+
+scope types:--->singleton
+            --->prototype
+
+component scan:
+--------------
+to access class in another package
+
+lifecycle of bean:
+-----------------
+--->predestroy
+--->postconstruct
+
+
+
+
