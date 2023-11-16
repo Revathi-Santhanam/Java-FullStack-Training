@@ -1,0 +1,33 @@
+Task Done:
+    - created all the api points in the controller.
+        - Admin:
+            1. Category
+                -> view category
+                -> create category
+                -> update category
+                -> delete category
+            2. Events
+                -> view tour
+                -> create tour
+                -> update tour
+                -> delete tour
+            3. View all registered user
+            4. booked events
+                - view all booked tour
+                - view particular user tour
+                - update booking Status
+                     - confirmed
+                     - cancelled
+       
+        - User:
+            1. GetAll tour category
+            2.get all tour 
+            2. Booktour
+            3. viewbooked tour.
+ 
+    - Wrote all the buisness logic in the respected controllers and service files.
+    - created a request files for all resected model to validate and response files to send back to the user,
+    created Dto files for converting the request to model and model to response to store and retrieve from the user.
+    - in each request file if any data in invalid it will throw formatted error.
+ 
+ 
