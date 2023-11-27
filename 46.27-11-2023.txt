@@ -1,0 +1,13 @@
+Today's work:
+------------
+
+---->Worked on tour edit logic.
+and completed the logic part.
+
+---->learned to upload images file to the backend 
+
+---->and also learned to get it in the frontend.
+
+----> enhanced my UI in admin section for destination display.
+
+
