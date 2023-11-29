@@ -1,0 +1,14 @@
+Today's work
+
+---------------------------------
+*Continued with the integration of back end and front end.
+        - Integrated the POST,PUT and DELETE methods in both admin and user side
+ 
+            Admin side:
+            -> POST tours
+            -> PUT tours
+            -> POST categories 
+            -> PUT categories 
+           User side: 
+            -> GET Category 
+            -> GET tours
