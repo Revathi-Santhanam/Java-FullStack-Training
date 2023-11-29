@@ -1,0 +1,16 @@
+today's work:
+------------
+Project:  Travel Package Booking
+=================================
+*Continued with the integration of back end and front end.
+        - Integrated the GET Methods in project in admin side
+            -> GET Category
+            -> GET Users  
+            -> GET Tours 
+            -> GET Booking
+        - Integrated Post method 
+            -> POST Category
+        - Integrated the GET Methods in project in admin side
+            -> GET Category
+            -> GET Tours 
+            
