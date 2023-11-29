@@ -1,27 +1,16 @@
 Today's work:
--------------
+------------
 
-started to work on developing UI for my Tour Package Website.
+added UI for admin side :
 
-Main components:
-----------------
-    ->Login
-    ->Register
-    ->Admin
-    ->User
-
-I have done with login and register component for my application.
-
-
-After that I have started with User component under that there are:
-
-      ->Navbar
-      ->footer
+ ->Navbar
+    
       ->Tour
       ->Destination
-      ->All Tour
-      ->All Destination
-      ->Destination Tour
-      ->MyAccount
+      ->Add Tour
+      ->Add Destination
+      ->Booking
+      ->Users
 
-done all my basic UI for the above components.
+
+done html css bootstrap part
