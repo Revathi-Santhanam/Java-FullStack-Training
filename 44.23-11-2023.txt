@@ -1,0 +1,11 @@
+Today's work
+-------------
+Project: Travel Package Booking
+=================================
+*Continued with the integration of back end and front end.
+        - Integrated the Post Methods in admin side
+            -> Post Category
+            -> Post Tours
+        - Integrated Delete method 
+            -> Delete Category 
+            -> Delete Tours
