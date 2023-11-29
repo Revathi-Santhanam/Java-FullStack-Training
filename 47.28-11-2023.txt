@@ -1,0 +1,18 @@
+Today's work
+-------------
+Project: Travel Package Booking
+=================================
+
+*Continued with the integration of back end and front end.
+        - Integrated the POST,PUT and DELETE methods in both admin and user side
+            User side:
+            ----------- 
+            ->POST booking
+ 
+            Admin side:
+            -----------
+            -> Worked with charts
+ 
+ 
+        - Continued with the UI part for some corrections 
+        - File upload
