@@ -1,0 +1,15 @@
+Today's work:
+-------------
+
+Enhanced the UI for my website
+
+Added itinerary for tour  by adding toggle function
+
+added styling for tour page 
+
+added cards for admin page 
+
+Added a feature after booking a tour a lottie shold popup
+
+and added recipt download functionality
+
