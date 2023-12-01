@@ -1,0 +1,92 @@
+Todays'working:
+--------------
+
+Adding images to database:
+-------------------------
+step1-: add logic in storage service file in backend
+step2-:in controller add requestparam for each parameter in request format
+       example:@PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<APIResponse> createCategory(@RequestParam("categoryPhoto") MultipartFile categoryPhoto,
+                                                      @RequestParam("categoryName") String categoryName,
+                                                      @RequestParam("id") Long id) throws IOException{
+        String file = storageService.storeFile(categoryPhoto);
+        CategoryRequest categoryRequest = new CategoryRequest();
+        categoryRequest.setCategoryName(categoryName);
+        categoryRequest.setId(id);
+        categoryRequest.setCategoryPhoto(file);
+
+
+        CategoryResponse categoryResponse = categoryService.create(categoryRequest);
+        apiResponse.setStatus(HttpStatus.OK.value());
+        apiResponse.setData(categoryResponse.getCategories());
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
+    }
+step3-:In frontend send all the values in formdata formdata
+   example:
+        submitForm(destinationForm: NgForm): void 
+    if (this.categoryModel.id !== 0) {
+      this.categoryModel.id = this.storage.getCategory().id;
+     
+    }
+    const formData = new FormData();
+    formData.append('categoryPhoto', this.file);
+    formData.append('id', this.categoryModel.id?.toString()!);
+    formData.append('categoryName', this.categoryModel.categoryName);
+
+    if (this.categoryModel.id === 0) {
+      this.destinationService.postCategory(formData).subscribe({
+        next: (response: ApiResponse) => {
+          this.categoryModel = response.data;
+          this.showToast = true;
+          this.toastTitle = 'Success';
+          this.toastMessage = 'Destination added successfully';
+          destinationForm.reset();
+          this.router.navigate(['/admin/destination']);
+        },
+        complete: () => {},
+        error: (error: Error) => {
+          console.log('Message:', error.message);
+          console.log('Name:', error.name);
+        },
+      });
+    }
+
+    To get the added image:
+    ----------------------
+    step1-:
+        add getmapping method API in backend:
+         @GetMapping("/downloadFile/{id}")
+    public ResponseEntity<Resource> downloadFile(@PathVariable Long id) throws IOException {
+
+        File file = categoryService.getFile(id);
+
+        InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Cache-Control", "no-cache, no-store, must-revalidate");
+        headers.add("Pragma", "no-cache");
+        headers.add("Expires", "0");
+
+        return ResponseEntity.ok()
+                .headers(headers)
+                .contentLength(file.length())
+                .contentType(MediaType.APPLICATION_OCTET_STREAM)
+                .body(resource);
+    }
+
+    getFile method:
+    -----------------
+            public File getFile(Long id) throws IOException{
+        TourCategory tourCategory = categoryRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("id", "id", id));
+
+        Resource resource = storageService.loadFileAsResource(tourCategory.getCategoryPhoto());
+
+        return resource.getFile();
+    }
+
+    then in frontend:
+    -----------------
+    add in image tag src:
+      <!-- {{"http://localhost:8080/api/admin/category/downloadFile/"+ destination.id  }} -->
+ 
